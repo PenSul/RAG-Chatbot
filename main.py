@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-""" @file app.py
+""" @file main.py
 @brief Multi-PDF Chatbot with RAG using Ollama and LangChain
 @details This application provides a conversational interface for querying multiple PDF documents
 using Retrieval-Augmented Generation (RAG) with local LLMs through Ollama.
