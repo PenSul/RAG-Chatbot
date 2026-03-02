@@ -1,7 +1,0 @@
-streamlit
-langchain
-langchain-community
-pypdf
-chromadb
-ollama
-scikit-learn
