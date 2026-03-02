@@ -7,9 +7,6 @@
 ## Installation
 
 1. Navigate to the project directory:
-   ```bash
-   cd /path/to/Chatbot
-   ```
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
@@ -19,13 +16,12 @@
 
 1. Start the Streamlit application:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 2. Open the provided URL in your browser (typically `http://localhost:8501`).
 3. Upload PDF documents and start chatting with the bot!
 
 ## Notes
 
-- Ensure Ollama is running and the required LLM (e.g., `phi4-mini:latest`) is downloaded.
-- Answer cache is based on a large data.
+- Ensure Ollama is running and the required LLM (e.g., `phi4-mini:latest` as used in the code) is downloaded.
 - Debug mode can be enabled for additional insights into the bot's processing.
