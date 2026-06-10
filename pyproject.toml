@@ -12,8 +12,13 @@ license = { text = "MIT" }
 
 dependencies = [
     "streamlit",
-    "langchain",
-    "langchain-community",
+    "langchain==1.2.10",
+    "langchain-core==1.2.17
+    "langchain-community=0.4.1",
+    "langchain-ollama=1.0.1",
+    "langchain-chroma=1.1.0",
+    "langchain-text-splitters=1.1.1",
+    "langchain-classic=1.0.1",
     "pypdf",
     "chromadb",
     "ollama",
