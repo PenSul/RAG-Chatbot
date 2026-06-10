@@ -6,7 +6,7 @@ application reruns, avoiding expensive re-initialisation.
 """
 
 import streamlit as st
-from langchain_ollama import ChatOllama
+from langchain_community.chat_models import ChatOllama
 from langchain_community.embeddings import OllamaEmbeddings
 
 from rag_chatbot.config import (
