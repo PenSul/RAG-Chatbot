@@ -24,13 +24,13 @@ Upload one or more PDF documents, and the chatbot will answer questions grounded
 |---|---|
 | **Python** | 3.10 or later |
 | **Ollama** | Installed and running locally — see [ollama.ai](https://ollama.ai/) |
-| **LLM model** | Pulled into Ollama (default: `qwen3.5:2b`) |
+| **LLM model** | Pulled into Ollama (default: `phi4-mini`) |
 | **Embedding model** | Pulled into Ollama (default: `all-minilm:l6-v2`) |
 
 Pull the required models before first use:
 
 ```bash
-ollama pull qwen3.5:2b
+ollama pull phi4-mini
 ollama pull all-minilm:l6-v2
 ```
 
