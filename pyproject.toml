@@ -14,6 +14,7 @@ dependencies = [
     "streamlit",
     "langchain",
     "langchain-community",
+    "langchain-ollama",
     "pypdf",
     "chromadb",
     "ollama",
