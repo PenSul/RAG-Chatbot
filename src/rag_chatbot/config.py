@@ -11,7 +11,7 @@ they can be adjusted in a single place without touching business logic.
 
 EMBEDDING_MODEL_NAME: str = "all-minilm:l6-v2"
 
-LLM_MODEL_NAME: str = "phi4-mini"
+LLM_MODEL_NAME: str = "qwen3.5:2b"
 LLM_TEMPERATURE: float = 0.15
 LLM_TOP_K: int = 10
 LLM_TOP_P: float = 0.9
