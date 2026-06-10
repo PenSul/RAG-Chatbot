@@ -8,7 +8,7 @@ updates.
 
 import time
 
-from langchain.callbacks.base import BaseCallbackHandler
+from langchain_core.callbacks.base import BaseCallbackHandler
 
 from rag_chatbot.config import STREAM_RENDER_INTERVAL_SECONDS
 
