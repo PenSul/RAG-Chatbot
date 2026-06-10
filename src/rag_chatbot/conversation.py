@@ -6,9 +6,9 @@ provides a handler that automatically splits compound questions into
 individually answered sub-queries.
 """
 
-from langchain.chains import ConversationalRetrievalChain
-from langchain.memory import ConversationBufferMemory
-from langchain.prompts import PromptTemplate
+from langchain_classic.chains import ConversationalRetrievalChain
+from langchain_classic.memory import ConversationBufferMemory
+from langchain_core.prompts import PromptTemplate
 
 from rag_chatbot.config import (
     CONDENSE_QUESTION_TEMPLATE,
